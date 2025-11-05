@@ -339,6 +339,3 @@ T. Harshavardhan Reddy (22WUO0105023)
 
 Supervised by: Dr. Bhargav Prajwal Pathri, Assistant Professor, SOT, Woxsen University.
 ✨ *This project bridges AI + CV + AR +ML to revolutionize personalized interior design and reduce wrong furniture purchase decisions.*
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
