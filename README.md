@@ -7,7 +7,7 @@ This project builds a **smart interior design system** that combines **Computer 
 
 * Detect furniture & room layouts.
 * Get **personalized design recommendations**.
-* Use an **AR Try-On feature** to virtually place furniture in real rooms.
+* View 3D/AR  image.
 
 ---
 
