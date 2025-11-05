@@ -1,0 +1,30 @@
+[project]
+name = "nterior-designer"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "A smart system for Personalized Interior Design and Augmented Reality Try-On
+",purpose = "Capstone Project"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "python-multipart (>=0.0.20,<0.0.21)",
+    "google-genai (>=1.11.0,<2.0.0)",
+    "fastapi (>=0.115.12,<0.116.0)",
+    "uvicorn (>=0.34.2,<0.35.0)",
+    "python-dotenv (>=1.1.0,<2.0.0)",
+    "torch (>=2.3.0,<3.0.0)",
+    "torchvision (>=0.18.0,<1.0.0)",
+    "pillow (>=10.4.0,<11.0.0)",
+    "ultralytics (>=8.3.30,<9.0.0)",
+    "sqlalchemy (>=2.0.0,<3.0.0)",
+    "passlib[bcrypt] (>=1.7.4,<2.0.0)",
+    "python-jose[cryptography] (>=3.3.0,<4.0.0)",
+    "email-validator (>=2.1.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
