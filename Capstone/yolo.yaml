@@ -1,0 +1,5 @@
+nc: 5
+names: ['chair', 'table', 'sofa', 'bed', 'shelf']
+path: furniture_yolo_dataset/images
+train: C:/Users/Reliance Digital/Capstone/furniture_yolo_dataset/images/train
+val: C:/Users/Reliance Digital/Capstone/furniture_yolo_dataset/images/val

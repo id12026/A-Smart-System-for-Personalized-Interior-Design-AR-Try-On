@@ -1,0 +1,17 @@
+names:
+  0: door
+  1: cabinetDoor
+  2: refrigeratorDoor
+  3: window
+  4: chair
+  5: table
+  6: cabinet
+  7: couch
+  8: openedDoor
+  9: pole
+  10: kitchen_island
+  
+  nc: 11
+path: C:/Users/Reliance Digital/Downloads/furniture_data
+train: C:/Users/Reliance Digital/Downloads/furniture_data/train/images
+val: C:/Users/Reliance Digital/Downloads/furniture_data/valid/images

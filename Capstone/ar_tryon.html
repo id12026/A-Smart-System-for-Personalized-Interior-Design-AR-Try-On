@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Furniture Try-On</title>
+    <script src="https://aframe.io/releases/1.4.2/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+</head>
+<body>
+    <a-scene vr-mode-ui="enabled: true" embedded arjs="sourceType: webcam; debugUIEnabled: false;">
+        <a-assets>
+            <a-asset-item id="chair-model" src="https://raw.githubusercontent.com/AR-js-org/AR.js/master/data/models/chair.glb"></a-asset-item>
+            <a-asset-item id="table-model" src="https://raw.githubusercontent.com/AR-js-org/AR.js/master/data/models/table.glb"></a-asset-item>
+            <a-asset-item id="cabinet-model" src="https://raw.githubusercontent.com/AR-js-org/AR.js/master/data/models/cabinet.glb"></a-asset-item>
+            <a-asset-item id="refrigerator-model" src="https://raw.githubusercontent.com/AR-js-org/AR.js/master/data/models/refrigerator.glb"></a-asset-item>
+            <a-asset-item id="kitchen_island-model" src="https://raw.githubusercontent.com/AR-js-org/AR.js/master/data/models/island.glb"></a-asset-item>
+        </a-assets>
+        <a-entity gltf-model="#kitchen_island-model" position="0 0 0" scale="0.5 0.5 0.5"></a-entity><a-entity gltf-model="#dining_table-model" position="1 0 0" scale="0.5 0.5 0.5"></a-entity><a-entity gltf-model="#cabinets-model" position="2 0 0" scale="0.5 0.5 0.5"></a-entity><a-entity gltf-model="#chair-model" position="3 0 0" scale="0.5 0.5 0.5"></a-entity><a-entity gltf-model="#refrigerator-model" position="4 0 0" scale="0.5 0.5 0.5"></a-entity>
+        <a-camera position="0 1.6 0"></a-camera>
+    </a-scene>
+</body>
+</html>

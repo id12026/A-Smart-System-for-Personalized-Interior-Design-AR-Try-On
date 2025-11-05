@@ -1,0 +1,7 @@
+path: c:\Users\Reliance Digital\Capstone\furniture_yolo_dataset
+train: images/train
+val: images/val
+test: images/test
+
+nc: 5
+names: ['Almirah', 'Chair', 'Refrigerator', 'Table', 'Television']
